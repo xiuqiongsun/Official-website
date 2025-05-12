@@ -1,0 +1,18 @@
+/* 在<style>中定义CSS变量 */
+:root {
+  --bg-color: #ffffff; /* 默认背景颜色 */
+  --text-color: #333; /* 默认文本颜色 */
+  --el-color-primary: #ff375f;
+  --el-switch-on-color: #f90;
+}
+.el-select-dropdown__item.is-selected {
+  font-weight: normal;
+}
+
+/* 应用CSS变量 */
+body {
+  background-image: url('https://nice-short-pro.s3.ap-east-1.amazonaws.com/uploads/2024_11_14/WkFPA4umeadVj2n5.png');
+  background-size: cover;
+  color: #333;
+  background-attachment: fixed; /* 背景固定，不随页面滚动 */
+}
